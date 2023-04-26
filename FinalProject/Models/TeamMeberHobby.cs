@@ -4,8 +4,7 @@ namespace FinalProject.Models
 {
     public class TeamMeberHobby
     {
-        public class TeamMemberHobby
-        {
+        
             [Key]
             public int Id { get; set; } 
 
@@ -14,6 +13,5 @@ namespace FinalProject.Models
 
             public int HobbyId { get; set; }
             public Hobby Hobby { get; set; }
-        }
     }
 }
