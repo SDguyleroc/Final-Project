@@ -21,7 +21,7 @@ namespace FinalProject.Controllers
 
         // GET: api/TeamMembers
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TeamMember>>> GetTeamMembers(int? id = null)
+        public async Task<ActionResult<IEnumerable<TeamMember>>> GetTeamMember(int? id = null)
         {
             var query = _context.TeamMembers.AsQueryable();
 
