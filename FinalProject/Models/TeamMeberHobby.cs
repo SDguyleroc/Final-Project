@@ -4,6 +4,8 @@
     {
         public class TeamMemberHobby
         {
+            public int Id { get; set; } 
+
             public int TeamMemberId { get; set; }
             public TeamMember TeamMember { get; set; }
 
